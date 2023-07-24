@@ -1,0 +1,16 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+background-image: url('./Assets/background-burger.jpg');
+}
+
+.App {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 600px; /* Optional: Set a maximum width for the container */
+margin: 0 auto; /* Center the container horizontally */
+}

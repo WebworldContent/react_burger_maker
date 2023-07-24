@@ -1,0 +1,31 @@
+.MenuOptions {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.MenuSection {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.MenuOptionRow {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.MenuOptionButton {
+padding: 10px 20px;
+margin: 5px;
+font-size: 16px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.MenuOptionButton:hover {
+background-color: #45a049;
+}
