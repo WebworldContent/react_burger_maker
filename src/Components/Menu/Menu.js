@@ -1,28 +1,37 @@
 import React from "react";
 import "./Menu.css";
 
-export default function Menu() {
+export default function Menu(props) {
+
+    function addIngredient(value) {
+        props.addIngredients(value);
+    }
+
+    function removeIngredient(value) {
+        props.removeIngredients(value);
+    }
+
     return (
         <div className="MenuOptions">
             <div className="MenuSection">
                 <h2>Salad</h2>
                 <div className="MenuOptionRow">
-                    <button className="MenuOptionButton" onClick="addIngredient('Salad')">Add</button>
-                    <button className="MenuOptionButton" onClick="removeIngredient('Salad')">Remove</button>
+                    <button className="MenuOptionButton" onClick={() => addIngredient('salad')}>Add</button>
+                    <button className="MenuOptionButton" onClick={() => removeIngredient('salad')}>Remove</button>
                 </div>
             </div>
             <div className="MenuSection">
                 <h2>Bacon</h2>
                 <div className="MenuOptionRow">
-                    <button className="MenuOptionButton" onClick="addIngredient('Bacon')">Add</button>
-                    <button className="MenuOptionButton" onClick="removeIngredient('Bacon')">Remove</button>
+                    <button className="MenuOptionButton" onClick={() => addIngredient('bacon')}>Add</button>
+                    <button className="MenuOptionButton" onClick={() => removeIngredient('bacon')}>Remove</button>
                 </div>
             </div>
             <div className="MenuSection">
                 <h2>Cheese</h2>
                 <div className="MenuOptionRow">
-                    <button className="MenuOptionButton" onClick="addIngredient('Cheese')">Add</button>
-                    <button className="MenuOptionButton" onClick="removeIngredient('Cheese')">Remove</button>
+                    <button className="MenuOptionButton" onClick={() => addIngredient('cheese')}>Add</button>
+                    <button className="MenuOptionButton" onClick={() => removeIngredient('cheese')}>Remove</button>
                 </div>
             </div>
         </div>
