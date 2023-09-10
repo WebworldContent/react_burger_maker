@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_burger_maker/static/css/main.0665826e.css",
+    "main.js": "/react_burger_maker/static/js/main.a446a21b.js",
+    "static/media/background-burger.jpg": "/react_burger_maker/static/media/background-burger.04c06ac1a29a0452752d.jpg",
+    "index.html": "/react_burger_maker/index.html",
+    "main.0665826e.css.map": "/react_burger_maker/static/css/main.0665826e.css.map",
+    "main.a446a21b.js.map": "/react_burger_maker/static/js/main.a446a21b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0665826e.css",
+    "static/js/main.a446a21b.js"
+  ]
+}
